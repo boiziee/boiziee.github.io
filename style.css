@@ -7,7 +7,6 @@ body {
   background-repeat: repeat;
 }
 #Profile {
-  width: 800px;
   margin: 20px auto 20px auto;
 }
 h1 {
@@ -15,9 +14,6 @@ h1 {
 }
 h4 {
   color: gray;
-}
-.NYC {
-  color: red;
 }
 img{
   width: 30%;

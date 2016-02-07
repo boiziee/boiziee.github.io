@@ -7,5 +7,4 @@ $(function() {
     console.log(elementThatWasClicked);
     elementThatWasClicked.parent().remove();
   })
-
 })
