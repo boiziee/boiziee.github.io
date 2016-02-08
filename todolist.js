@@ -1,4 +1,3 @@
-// This code runs when the page loads
 $(function() {
 
   $(".finallist").on("click", function(event) {
