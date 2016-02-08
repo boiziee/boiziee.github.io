@@ -50,6 +50,11 @@
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="weather.js"></script>
 </nav>
 </head>
 <body>
@@ -111,23 +116,11 @@
         <iframe src="https://player.vimeo.com/video/43903792?title=0&byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br><br>
         </div>
     </div>
-    <div class="inner">
-      <h2> "RIGHT NOW" <span class="more_button pictos">-</span>
-      </h2>
-    <div class="current_container show_more">
-      <div class="less">
-        <canvas id="icon_current" width="164" height="164" style="width:82px; height: 82px">
-        <div class="temp">
-          <span>35C</span>
-        </div>
-        <div class="desc">Clear, Feels&nbsp;like&nbsp;29C</div>
-      </div>
 
-
-
-
-
-
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+      <h3><a href="#" class="btn btn-primary get-the-weather">Get the weather</a></h3>
+      <div class="weather-report"></div>
+    </div>
   </div>
 </body>
 </html>
